@@ -1,0 +1,68 @@
+/* 
+    Created on : 12.3.2014, 13:10:30
+    Author     : pes2704
+*/
+
+/*pozor, pozor - ve formulářích jsou všude rozesety in-line styly - může se to hádat*/
+
+form p {
+    font-size: 16px;
+    /*color: #626364;*/    
+    color: black;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 27px;
+    margin: 0;
+    padding: 0 0 7px;
+}
+
+fieldset {
+    background-color: #F3F3F3;
+    border: 1px solid #C0C0C0;
+    display: block;
+    line-height: 17px;
+    margin-bottom: 15px;
+    padding: 10px 20px 5px;
+}
+
+
+fieldset legend {
+    background-color: #375D81;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+fieldset fieldset legend {
+    color: black;
+    font-weight: bold;
+    background-color: #DDDDFF;
+}
+
+fieldset fieldset fildset legend {
+    color: black;
+    font-weight: bold;
+    background-color: #375D81;
+}
+fieldset p {
+    font-size: 1em;
+    color: #626364;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 0 11px;
+}
+
+fieldset .checkbox-grid li{
+    display: block;
+    float: left;
+    width: 50%;
+}
+/*ve formulářích jsou texty jen tak volně - nejsou v <p> ani ničem podobném*/
+fieldset {  
+    font-size: 14px;
+    color: #424364;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 17px;
+
+}
