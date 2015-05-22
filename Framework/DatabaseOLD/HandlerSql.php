@@ -63,6 +63,10 @@ abstract class Framework_Database_HandlerSql extends PDO implements Framework_Da
         return call_user_func_array(array($this->datab, $method), $arguments);
     } 
     
+    public function prepare (string $query) {
+        parent::prepare($query);
+    }
+    
     public function getCharset() {
         return $this->charset;
     }

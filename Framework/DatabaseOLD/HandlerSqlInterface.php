@@ -4,7 +4,9 @@
  * @author pes2704
  */
 interface Framework_Database_HandlerSqlInterface extends Framework_Database_HandlerInterface {
-    
+
+    public function prepare($query);
+
     /**
      * Metoda formátuje identifikátory pro použití v SQL dotazu podle typu konkrétní databáze. 
      * Např. přidá před a za identifikátor "databázové" uvozovky v případě MySQL databáze.
